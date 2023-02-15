@@ -2,8 +2,8 @@ import pandas as pd
 
 import file_parser
 
-input_filename = input("Hi Polly/Katie, please enter the filepath to the philantro transaction file\n")
-output_filename = input("Please add the output filepath (e.g. user/documents/giftaidschedule2022\n")
+input_filename = input("Hi, please enter the filepath to the Philantro transaction file\n")
+output_filename = input("Please add the output filepath (e.g. user/documents/giftaidschedule2022)\n")
 
 def handle(input_filename):
     df = pd.read_csv(input_filename)
